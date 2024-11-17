@@ -10,7 +10,7 @@ const Banner = () => {
       {/* BAnner image  */}
       <div className="Flex justify-center items-center">
         <motion.img 
-        initial={{opacity:0 ,scale:0.5}} 
+        initial={{opacity:0 ,scale:1}} 
         whileInView={{opacity:1,scale:1}}
         transition={{type: "spring", stiffness:100 , delay:0.2}}
         src={BannerPng} alt="" className="w-[300px] md:max-w-[400px] h-full object-cover"/>
